@@ -1,175 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nano Folio - Simple HTML Template</title>
-	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
-	<link href="css/magnific-popup.min.css" rel="stylesheet">
-    <link href="css/tooplate-style.css" rel="stylesheet">
+
+     <title>Ben's Resume - Profile HTML Page</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
 <!--
-
-Tooplate 2122 Nano Folio
-
-https://www.tooplate.com/view/2122-nano-folio
-
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
 -->
 </head>
-<body>
-	<div class="tm-container-fluid">
-		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
-			<i class="fas fa-heart fa-3x"></i>
-			<h1>Nano Folio</h1>
-		</section>
 
-		<section class="tm-about tm-mb-80 tm-p-50 tm-bgcolor-2 tm-border-rounded">
-			<div class="tm-about-header tm-flex-center">
-				<i class="fas fa-users fa-2x"></i>
-				<h2>About Us</h2>
-			</div>
-			<div class="tm-about-text">
-				<p class="tm-mb-40">Nano Folio is simple HTML template with a minimal very light-weight custom CSS file. Max content width is 940 pixels. You can easily change the width or any part in this template. Gallery comes with a pop-up image and simple categories.</p>
-				<p class="tm-mb-0">Please support Tooplate website by telling your friends about it. That is going to be very helpful for us. Feel free to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_blank">message us</a> via email or live chat if you have anything to say.</p>
-			</div>
-		</section>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-		<div class="tm-gallery-section tm-mb-80">
-			<ul class="filters-button-group tm-mb-40">
-				<li><a href="#" data-filter=".city">City</a></li>
-				<li><a href="#" data-filter=".nature">Nature</a></li>
-				<li><a href="#" data-filter=".portraits">Portraits</a></li>
-				<li><a href="#" class="active" data-filter="*">Show All</a></li>
-			</ul>
-			<div class="tm-gallery">				
-				<div class="tm-gallery-item city portraits">
-		            <a href="img/img-01.jpg">
-		            	<img src="img/tn-img-01.jpg" alt="City Scape" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-02.jpg">
-		            	<img src="img/tn-img-02.jpg" alt="Beautiful Lady" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-03.jpg">
-		            	<img src="img/tn-img-03.jpg" alt="City over cloud" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature">
-		            <a href="img/img-04.jpg">
-		            	<img src="img/tn-img-04.jpg" alt="Autumn Forest" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-05.jpg">
-		            	<img src="img/tn-img-05.jpg" alt="Skyscrapers Reflected" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-06.jpg">
-		            	<img src="img/tn-img-06.jpg" alt="City Night" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-07.jpg">
-		            	<img src="img/tn-img-07.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-08.jpg">
-		            	<img src="img/tn-img-08.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-09.jpg">
-		            	<img src="img/tn-img-09.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-10.jpg">
-		            	<img src="img/tn-img-10.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-11.jpg">
-		            	<img src="img/tn-img-11.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-12.jpg">
-		            	<img src="img/tn-img-12.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-			</div>			
-		</div>
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
 
-		<section class="tm-contact tm-mb-50 tm-bgcolor-3 tm-border-rounded">
-			<div class="tm-contact-header tm-flex-center">
-				<i class="fas fa-map-pin fa-3x"></i>
-				<h2>Contact</h2>
-			</div>
-			<div class="tm-contact-info">
-				<address class="tm-mb-30">
-					120 Curabitur sed tortor ultrices,
-					congue odio eget, posuere urna.
-					Praesent at rhoncus 10680
-				</address>
-				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a></div>
-				<div class="tm-flex">
-					<a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a>
-					<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a>
-					<a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a>
-				</div>
-			</div>
-			<div class="tm-contact-form-container">
-				<form id="contact-form" action="" method="POST" class="tm-contact-form">
-		          	<input type="text" name="name" placeholder="name" required="" />
-		          	<input type="email" name="email" placeholder="email" required="" />
-		          	<textarea rows="5" name="message" class="tm-mb-30" placeholder="message" required=""></textarea>		          	
-		          	<button type="submit" class="tm-right tm-btn-submit">send</button>          	
-		        </form>    
-			</div>
-		</section>
+            <a class="navbar-brand" href="#">
+                Ben Resume
+            </a>
 
-		<footer class="tm-footer">
-			Copyright 2020 Nano Folio - Design: <a rel="sponsored" href="https://www.tooplate.com" class="tm-link-gray">Tooplate</a>
-		</footer>
-	</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/isotope.pkgd.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script>
-		$(function(){
-		  	// Init the image gallery
-		  	var $gallery = $(".tm-gallery").isotope({
-		    	itemSelector: ".tm-gallery-item",
-		    	layoutMode: "fitRows"
-		  	});
-		  
-		  	// Layout Isotope after each image loads
-		  	$gallery.imagesLoaded().progress(function() {
-		    	$gallery.isotope("layout");
-		  	});
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
 
-		  	$(".filters-button-group").on("click", "a", function(e) {
-		  		e.preventDefault();
-			    var filterValue = $(this).attr("data-filter");
-			    $gallery.isotope({ filter: filterValue });
-			    $('.filters-button-group a').removeClass('active');
-			    $(this).addClass('active');
-			});
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
 
-		  	// Magnific Pop up
-		  	$('.tm-gallery').magnificPopup({
-		  		delegate: 'a',
-			  	type: 'image',
-				  gallery: { enabled: true }
-			});
-		});
-	</script>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="#" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/ben.jpg" class="img-fluid" alt="Ben Resume HTML Template">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Ben, a digital nomad</h1>
+
+                            <a href="#" class="email-link">
+                                hello@company.co
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">This is Ben's Resume</h3>
+
+                    <p>Ben Resume HTML Template is brought to you by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate website</a>. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.</p>
+
+                    <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Ben Wilson </li>
+
+                        <li><strong>Date of Birth:</strong> 26 September 1999</li>
+
+                        <li><strong>Website :</strong> company.co</li>
+
+                        <li><strong>Email :</strong> hello@company.co</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                </div>
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer volutpat</h3>
+                <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Mauris semper</h3>
+                <p>Cras et nisl vestibulum, accumsan elit sed, pretium enim. Vestibulum in condimentum magna. Maecenas quam magna, iaculis eu turpis et, commodo pulvinar leo.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer id neque</h3>
+                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">What People say</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image01.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Ben</h6>
+                                        <span>Art Director</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image02.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Marie</h6>
+                                        <span>Marketing Consultant</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image03.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Jen</h6>
+                                        <span>Product Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Wilson</h6>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <section class="faq section-padding">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+
+                    <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Are those HTML templates absolutely free for any kind of usage?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, they are 100% free and there is no hidden charge.</p>
+
+                            <p>They can be used for your commercial websites.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can I use them as a CMS theme or a part of website builder?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, you can use them.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              I cannot find a suitable HTML template. Can I request new template?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Can I redistribute your templates?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              How do I support Tooplate?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
+
+                </div>
+
+           	 </div><!-- col -->
+        	</div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div>
+
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
+                <p class="mb-1">010-020-0340</p>
+
+                <p>
+                    <a href="#">
+                        hello@company.co
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+                </ul>
+                
+              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
+                
+                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+            </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
 </body>
 </html>
